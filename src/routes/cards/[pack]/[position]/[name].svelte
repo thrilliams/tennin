@@ -192,7 +192,7 @@
 
 	<div class="data">
 		Data
-		<a target="_blank" href={`/api/cards/${card.pack.code}/${card.position}`} class="button">
+		<a rel="external" href={`/api/cards/${card.pack.code}/${card.position}`} class="button">
 			Copy-pasteable JSON
 		</a>
 	</div>
