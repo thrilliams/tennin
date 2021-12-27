@@ -21,8 +21,8 @@
 
 	<nav>
 		<ul>
-			<li><a sveltekit:prefetch href="/advanced">Advanced</a></li>
-			<li><a sveltekit:prefetch href="/docs/syntax">Syntax</a></li>
+			<!-- <li><a sveltekit:prefetch href="/advanced">Advanced</a></li>
+			<li><a sveltekit:prefetch href="/docs/syntax">Syntax</a></li> -->
 			<li><a sveltekit:prefetch href="/sets">Sets</a></li>
 		</ul>
 	</nav>
