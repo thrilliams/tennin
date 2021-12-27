@@ -35,8 +35,6 @@
 				(a, b) => new Date(b.pack.date_release).getTime() - new Date(a.pack.date_release).getTime()
 			);
 
-			console.log(printings);
-
 			return {
 				props: { card, srcsets, printings }
 			};

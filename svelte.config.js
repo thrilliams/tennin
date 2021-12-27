@@ -24,7 +24,8 @@ const config = {
 		vite: {
 			resolve: {
 				alias: {
-					$static: path.resolve('src/static')
+					$static: path.resolve('src/static'),
+					$lib: path.resolve('src/lib')
 				}
 			},
 			plugins: [imagetools({ force: true })]
